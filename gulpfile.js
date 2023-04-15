@@ -68,6 +68,7 @@ gulp.task("watch", () => {
     gulp.watch("./src/sass/**/*.scss", gulp.parallel("build-sass"));
 });
 
+
 gulp.task("build", gulp.parallel("copy-html", "build-js", "build-sass"));
 
 gulp.task("prod", () => {

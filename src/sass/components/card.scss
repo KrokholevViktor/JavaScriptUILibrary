@@ -1,0 +1,29 @@
+.card {
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0, .2);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .2);
+    &-img {
+        border: 3px solid rgba(88, 185, 44, 0.2);
+        display: block;
+        height: 300px;
+        width: 70%;
+        margin: 10px auto 10px;
+        object-fit: cover;
+    }
+    &-body {
+        padding: 20px;
+    }
+    &-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    &-text {
+        margin-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
